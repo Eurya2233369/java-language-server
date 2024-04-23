@@ -13,13 +13,13 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '18'
+        java-version: '21'
         distribution: 'temurin'
         cache: maven
     - name: Set up Node
       uses: actions/setup-node@v3
       with:
-        node-version: 18
+        node-version: 21
         cache: npm
     - name: Download JDKs
       run: |
